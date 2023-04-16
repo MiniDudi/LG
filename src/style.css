@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: Roboto, sans-serif;
+
+}
+
+body {
+    background-color: aliceblue;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+.header {
+    width: 100vw;
+    background-color: rgb(177, 177, 177);
+    padding: 1vw;
+    margin: 0vw;
+    max-width: auto;
+    max-height: auto;
+    align-content: center;
+}
+
+.footer {
+    background-color: rgb(177, 177, 177);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clock {   
+    font-family: Arial;
+    color: #fff;
+    display: flex;
+    font-size: 60px;
+    margin: auto 5vw;
+    justify-content: right;
+  }
+  
+
+.texto-cabeça {
+    color: rgba(235, 42, 42, 0.993);
+    font-weight: bold;
+    position: relative;
+    top:50%;
+    text-align: center;
+    font-size: 80px;
+}
+
+.pd {
+    position: relative;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.pd2 {
+    position: relative;
+    text-align: center;
+    color: rgb(60, 60, 255);
+    font-size: 45px;
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.png {
+    width: fit-content;
+    height: auto;
+    margin: 0 auto; 
+
+}
+
+.img {
+    width: auto;
+    height: 200px;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.nome {
+    color:rgb(60, 60, 255);
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+.ani {
+    animation: ppet;
+    animation-duration: 3s;
+    display: flex;
+    justify-content: center;
+    max-width: 130px;
+}
+
+
+
+@keyframes ppet {
+    From {
+        margin-left: 100%;
+        width: 300%;
+    }
+    To {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+} 
